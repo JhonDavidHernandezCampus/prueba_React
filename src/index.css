@@ -1,0 +1,12 @@
+.contenedor{
+    display: flex;
+}
+
+.bloqueIzquierda{
+    width: 65%;
+}
+
+
+.bloqueDerecha{
+    padding: 3%;
+}

@@ -1,11 +1,43 @@
 
 .padre{
+    display: flex;
     padding:2%;
     background-color:#E9A763;
-    border-radious:10px
+    border-radius: 10px;
+    height: 200px;
+}
+.nuevoLibro{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+img{
+    width: 100%;
+    height: 100%;
 }
 
+.headerImg{
+    width: 28%;
+    border-radius: 10px;
+}
 
+p{
+    margin: 5px;
+    padding: 2px;
+}
+.btnCrearLibro{
+    font-size: medium;
+    padding: 10px;
+    width: 30%;
+    height: 20%;
+    border: none;
+    border-radius: 10px;
+    background-color: #343A3F;
+    color:white
+}
 
-.nuevoLibro{
+.btnMas{
+    font-size: large;
 }

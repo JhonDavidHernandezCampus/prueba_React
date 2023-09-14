@@ -1,0 +1,13 @@
+.padreInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border: 0px solid black;
+    box-shadow: 2px 4px 10px black;
+    border-radius: 15px;
+    width: 130px;
+    height:130px;
+    margin: 10px;
+}

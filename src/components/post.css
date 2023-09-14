@@ -1,0 +1,23 @@
+
+.padrePost{
+    display: flex;
+}
+
+.postPadre{
+    display: flex;
+    flex-direction: column;
+}
+
+.postInfo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.postAutores{
+    display: flex;
+    flex-direction: column;
+}
+
+.postResiente{
+
+}

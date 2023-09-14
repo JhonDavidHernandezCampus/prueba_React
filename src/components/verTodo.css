@@ -1,0 +1,12 @@
+.verTodoPadre {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.btnVerTodo {
+    color: green;
+    background-color:#C5FFBD ;
+    border-radius: 15px;
+    
+}

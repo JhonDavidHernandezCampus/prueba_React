@@ -1,5 +1,6 @@
 .contenedor{
     display: flex;
+    padding: 30px;
 }
 
 .bloqueIzquierda{

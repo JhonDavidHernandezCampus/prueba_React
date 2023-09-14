@@ -1,0 +1,24 @@
+.padreNoticias{
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.imgFoto{
+    border-radius: 20px;
+}
+
+.NotiInfo{
+    padding: 20px;
+}
+
+.infoPerso{
+    display: flex;
+}
+.imgPersona{
+    border-radius: 15px;
+    width: 60px;
+    height:60px;
+    margin-right: 50px;
+}

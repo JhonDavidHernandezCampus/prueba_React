@@ -21,7 +21,7 @@ export const Post = () => {
                 </div>
             </div>
             <div className="postResiente">
-                <VerTodo titulo= 'Resiente'/>
+                <VerTodo titulo= 'Reciente'/>
                 <Reciente nombre="Andres" informacion=" Creo un nuevo libro claro que siiiiUUU"/>
                 <Reciente nombre="Andres" informacion=" Creo un nuevo libro claro que siiiiUUU"/>
                 <Reciente nombre="Andres" informacion=" Creo un nuevo libro claro que siiiiUUU"/>

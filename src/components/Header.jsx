@@ -1,6 +1,7 @@
 import React from "react";
 import './header.css';
 import img1 from "../img/Captura desde 2023-09-14 16-18-26.png";
+import img2 from "./../img/lectura.jpg"
 
 export const Header = ({ tipo = false }) => {
     return (!tipo) ? <div className="padre">
@@ -11,7 +12,7 @@ export const Header = ({ tipo = false }) => {
             <button className="btnCrearLibro"> Crear Borrador <span className="btnMas"> + </span></button>
         </div>
         <div className="headerImg">
-            <img src="https://png.pngtree.com/png-clipart/20210912/original/pngtree-stack-of-books-png-image_6712581.jpg" alt="" />
+            <img src={img2} alt="" />
         </div>
     </div> : <div className="padreF">
         <div className="mensaje">

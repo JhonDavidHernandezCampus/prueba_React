@@ -1,12 +1,28 @@
-.verTodoPadre {
+.verTodoPadre{
     display: flex;
+    justify-content: center;
     width: 100%;
+}
+
+
+.verTodoConten {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height:60px;
+    padding: 10px;
     justify-content: space-between;
 }
 
 .btnVerTodo {
+    border: none;
     color: green;
+    margin-right: 100px;
     background-color:#C5FFBD ;
-    border-radius: 15px;
-    
+    border-radius: 30px;
+    width: 100px;
+    height: 100%;
+}
+.titulo{
+    font-size: 160%;
 }

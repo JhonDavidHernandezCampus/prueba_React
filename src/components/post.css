@@ -16,8 +16,19 @@
 .postAutores{
     display: flex;
     flex-direction: column;
+    padding: 15px;
+    border-radius: 15px;
+    height: 300px;
+    margin-top: 10px;
+    background-color: #EFEFEF;
+
+    width: 100%;
 }
 
 .postResiente{
-
+    margin: 10px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    width: 100%;
+    height:300px;
 }

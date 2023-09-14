@@ -1,10 +1,13 @@
 import React from "react";
+import './verTodo.css';
 
-export const VerTodo = ({titulo})=>{
+export const VerTodo = ({ titulo = 'Personajes' }) => {
     return <>
         <div className="verTodoPadre" >
-            <h1 className="">{titulo}</h1>
-            <button className="btnVerTodo"></button>
+            <div className="verTodoConten">
+                <h1 className="titulo">{titulo}</h1>
+                <button className="btnVerTodo">Ver Todo</button>
+            </div>
         </div>
     </>
 }

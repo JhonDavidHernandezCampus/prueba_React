@@ -1,0 +1,25 @@
+.padreApi{
+    height: 300px;
+    
+
+}
+
+.personaje{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 7px;
+}
+.imgPersonaje{
+    width: 60px;
+    height:60px;
+    margin-right:50px ;
+    border-radius: 20px;
+}
+
+h4{
+    margin-right: 30px;
+}
+hr{
+    margin: 0px;
+}

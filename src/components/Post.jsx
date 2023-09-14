@@ -3,6 +3,7 @@ import './post.css';
 import { Info } from "./Info";
 import { VerTodo } from "./VerTodo";
 import { PostApi } from "./PostApi";
+import { Reciente } from "./Reciente";
 
 export const Post = () => {
     return <>
@@ -15,12 +16,18 @@ export const Post = () => {
                     <Info nombre="Opiniones" cantidad='163 K' />
                 </div>
                 <div className="postAutores">
-                    <VerTodo tituilo="Personajes"/>
+                    <VerTodo titulo="Personajes"/>
                     <PostApi/>
                 </div>
             </div>
             <div className="postResiente">
-                
+                <VerTodo titulo= 'Resiente'/>
+                <Reciente nombre="Andres" informacion=" Creo un nuevo libro claro que siiiiUUU"/>
+                <Reciente nombre="Andres" informacion=" Creo un nuevo libro claro que siiiiUUU"/>
+                <Reciente nombre="Andres" informacion=" Creo un nuevo libro claro que siiiiUUU"/>
+                <Reciente nombre="Andres" informacion=" Creo un nuevo libro claro que siiiiUUU"/>
+                <Reciente nombre="Andres" informacion=" Creo un nuevo libro claro que siiiiUUU"/>
+                <Reciente nombre="Andres" informacion=" Creo un nuevo libro claro que siiiiUUU"/>
             </div>
         </div>
     </>

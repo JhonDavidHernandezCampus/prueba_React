@@ -11,13 +11,11 @@ export const PostApi = () => {
         }
         peticiones();
     }, []);
-    console.log(datosApi);
-    //console.log(datosApi,"fuera");
 
     return <>
         <div className="padreApi">
-            {datosApi.map((element) => (
-                <div>
+            {datosApi.map((element,index) => (
+                <div key={element.id}>
                     <hr />
                     <div className="personaje">
                         <img className="imgPersonaje" src={element.image} alt="" />

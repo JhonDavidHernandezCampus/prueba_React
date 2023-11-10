@@ -26,7 +26,7 @@
 }
 
 .postResiente{
-    
+
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -34,5 +34,45 @@
     background-color: #EFEFEF;
     margin: 10px 10px 0px 20px;
     border-radius: 20px;
-    
+
+}
+
+@media (max-width: 1630px){
+
+}
+
+@media (max-width: 1530px){
+    .padrePost{
+        display: flex;
+        flex-direction:column;
+    }
+    .postResiente{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 20px;
+        background-color: #EFEFEF;
+        margin: 10px 10px 10px 10px;
+        border-radius: 20px;
+    }
+    .postAutores{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        border-radius: 15px;
+        height: 300px;
+        margin: 10px 10px;
+        background-color: #EFEFEF;
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 1900px){
+
+}
+
+@media (max-width: 1900px){
+
 }

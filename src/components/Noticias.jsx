@@ -10,7 +10,7 @@ export const Noticias = ({titulo="titulo",descrip = "una corta descripcion",img=
                 <p>{descrip}</p>
             </div>
             <div className="infoPerso">
-                <div>
+                <div className="imgPersona">
                     <img className="imgPersona" src={imgPer} alt="" />
                 </div>
                 <div>

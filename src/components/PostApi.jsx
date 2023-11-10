@@ -6,7 +6,7 @@ export const PostApi = () => {
 
     useEffect(() => {
         const peticiones = async () => {
-            let datosApi = await (await fetch(`https://rickandmortyapi.com/api/character/[1,2,3]`)).json();
+            let datosApi = await (await fetch(`https://rickandmortyapi.com/api/character/[1,4,230]`)).json();
             setDatosApi(datosApi);
         }
         peticiones();

@@ -1,6 +1,11 @@
 .contenedor{
     display: flex;
-    padding: 30px;
+    padding: 0px 30px 30px 0px ;
+}
+
+.contenedorSidebar{
+    width:14%;
+    padding:0px;
 }
 
 .bloqueIzquierda{
@@ -18,4 +23,34 @@
     padding: 1%;
     width: 35%;
     max-height: 925px;
+}
+
+.bloqueDerechaResponsing{
+    display:none;
+}
+
+@media (max-width: 1630px){
+
+}
+
+@media (max-width: 1530px){
+    .bloqueDerecha{
+        max-height: 100%;
+    }
+}
+
+@media (max-width: 500px){
+    .bloqueDerechaResponsing{
+        display:flex;
+    }
+    .bloqueDerecha{
+        display:none;
+    }
+    .bloqueIzquierda{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1900px){
+
 }

@@ -1,6 +1,6 @@
 .padreApi{
     height: 300px;
-    
+
 
 }
 
@@ -22,4 +22,20 @@ h4{
 }
 hr{
     margin: 0px;
+}
+
+@media (max-width: 1630px){
+
+}
+
+@media (max-width: 1900px){
+
+}
+
+@media (max-width: 1900px){
+
+}
+
+@media (max-width: 1900px){
+
 }

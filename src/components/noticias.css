@@ -22,3 +22,34 @@
     height:60px;
     margin-right: 50px;
 }
+
+@media (max-width: 1630px){
+    .imgPersona{
+        margin-left:15px;
+    }
+    .infoPerso{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    .padreNoticias{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        padding: 15px;
+        background-color: aliceblue;
+        border-radius: 30px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 500px){
+    .infoPerso{
+        flex-direction:row;
+        justify-content:start;
+    }
+    .padreNoticias{
+        align-items:start;
+    }
+}

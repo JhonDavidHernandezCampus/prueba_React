@@ -11,5 +11,26 @@
     outline: none;
     padding-left: 30px;
     background-color: aliceblue;
-    border-radius: 10px; 
+    border-radius: 10px;
+}
+.menuResponsing{
+    display:none;
+}
+.PerfilResponsig{
+    display:none;
+}
+
+@media (max-width: 1050px){
+    .menuResponsing{
+        display:flex;
+    }
+    .imgMenu{
+        width:20px;
+    }
+}
+
+@media (max-width:500px){
+    .PerfilResponsig{
+        display:flex;
+    }
 }
